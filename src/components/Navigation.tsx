@@ -31,7 +31,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/bd14a099-517f-4256-bdd7-e56d84a87770.png" 
               alt="Optus Agent Logo" 
-              className="h-24 w-24 object-contain -mr-1"
+              className="h-24 w-24 object-contain -mr-1 mt-2"
             />
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               Optus Agent

@@ -8,7 +8,7 @@ const Atendimento = () => {
   const features = [
     {
       icon: Bot,
-      title: "Chatbots e Agentes Virtuais",
+      title: "Agentes de IA e Agentes Virtuais",
       description: "Respostas instantâneas a perguntas frequentes com processamento de linguagem natural avançado",
       benefits: ["Disponibilidade 24/7", "Resposta em segundos", "Múltiplos idiomas"]
     },
@@ -62,7 +62,7 @@ const Atendimento = () => {
                     Atendimento Inteligente
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                    Transforme a experiência do cliente com chatbots inteligentes, 
+                    Transforme a experiência do cliente com agentes de IA inteligentes, 
                     análise de sentimento em tempo real e suporte automatizado 24/7.
                   </p>
                 </div>

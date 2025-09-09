@@ -71,7 +71,7 @@ const RecursosHumanos = () => {
       icon: <BarChart3 className="h-6 w-6" />
     },
     {
-      title: "Chatbot de RH",
+      title: "Agente de IA para RH",
       description: "Assistente virtual para dúvidas de políticas e benefícios",
       icon: <Brain className="h-6 w-6" />
     }

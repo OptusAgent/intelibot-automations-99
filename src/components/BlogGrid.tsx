@@ -16,12 +16,12 @@ const BlogGrid = () => {
     {
       id: "atendimento",
       title: "Atendimento ao Cliente com IA",
-      description: "Chatbots inteligentes, análise de sentimento e suporte 24/7 que revolucionam a experiência do cliente.",
+      description: "Agentes de IA inteligentes, análise de sentimento e suporte 24/7 que revolucionam a experiência do cliente.",
       icon: MessageSquare,
       image: customerServiceImage,
-      tags: ["Chatbots", "Suporte 24/7", "Análise de Sentimento"],
+      tags: ["Agentes de IA", "Suporte 24/7", "Análise de Sentimento"],
       features: [
-        "Chatbots com processamento de linguagem natural",
+        "Agentes de IA com processamento de linguagem natural",
         "Análise de sentimento em tempo real",
         "Suporte 24/7 automatizado",
         "Integração com CRM e sistemas existentes"
