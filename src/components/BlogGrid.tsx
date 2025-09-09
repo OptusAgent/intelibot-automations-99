@@ -38,7 +38,8 @@ const BlogGrid = () => {
         "Lead scoring automatizado",
         "Campanhas personalizadas por IA",
         "Análise preditiva de vendas",
-        "Automação de follow-up"
+        "Automação de follow-up",
+        "Automação de redes sociais"
       ]
     },
     {
