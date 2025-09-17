@@ -39,12 +39,12 @@ const ContactSection = () => {
               <p className="text-muted-foreground mb-4">
                 Converse diretamente conosco
               </p>
-              <Button 
+               <Button 
                 variant="outline" 
                 className="w-full"
-                onClick={() => window.open('https://wa.me/5585917333321', '_blank')}
+                onClick={() => window.open('https://wa.me/5511993903011', '_blank')}
               >
-                +55 85 9173-3321
+                +55 11 99390-3011
               </Button>
             </CardContent>
           </Card>
@@ -144,7 +144,7 @@ const ContactSection = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  onClick={() => window.open('https://wa.me/5585917333321', '_blank')}
+                  onClick={() => window.open('https://wa.me/5511993903011', '_blank')}
                 >
                   WhatsApp
                 </Button>
