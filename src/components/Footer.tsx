@@ -24,26 +24,26 @@ const Footer = () => {
               <Button
                 size="sm"
                 variant="secondary"
-                className="p-2 rounded-full bg-pink-600 hover:bg-pink-700"
+                className="p-2 rounded-full bg-primary hover:bg-primary/90"
                 onClick={() => window.open('https://facebook.com/optusagent', '_blank')}
               >
-                <Facebook className="h-4 w-4" />
+                <Facebook className="h-4 w-4 text-white" />
               </Button>
               <Button
                 size="sm"
                 variant="secondary"
-                className="p-2 rounded-full bg-pink-600 hover:bg-pink-700"
+                className="p-2 rounded-full bg-primary hover:bg-primary/90"
                 onClick={() => window.open('https://instagram.com/optusagent', '_blank')}
               >
-                <Instagram className="h-4 w-4" />
+                <Instagram className="h-4 w-4 text-white" />
               </Button>
               <Button
                 size="sm"
                 variant="secondary"
-                className="p-2 rounded-full bg-pink-600 hover:bg-pink-700"
+                className="p-2 rounded-full bg-primary hover:bg-primary/90"
                 onClick={() => window.open('https://linkedin.com/company/optusagent', '_blank')}
               >
-                <Linkedin className="h-4 w-4" />
+                <Linkedin className="h-4 w-4 text-white" />
               </Button>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Informações de Contato</h3>
             <p className="text-gray-300 text-sm mb-4">
-              Sinta-se à vontade para entrar em contato e entrar em contato conosco!
+              Sinta-se à vontade para entrar em contato conosco!
             </p>
             
             <div className="space-y-3">
