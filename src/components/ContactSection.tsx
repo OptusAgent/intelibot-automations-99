@@ -63,13 +63,22 @@ const ContactSection = () => {
               <p className="text-muted-foreground mb-4">
                 Entre em contato por E-mail
               </p>
-              <Button 
-                variant="outline" 
-                className="w-full"
-                onClick={() => window.open('mailto:optusagent.ia@gmail.com', '_blank')}
-              >
-                optusagent.ia@gmail.com
-              </Button>
+              <div className="space-y-2">
+                <Button 
+                  variant="outline" 
+                  className="w-full text-sm"
+                  onClick={() => window.open('mailto:suporte@optusagent.com.br', '_blank')}
+                >
+                  suporte@optusagent.com.br
+                </Button>
+                <Button 
+                  variant="outline" 
+                  className="w-full text-sm"
+                  onClick={() => window.open('mailto:contato@optusagent.com.br', '_blank')}
+                >
+                  contato@optusagent.com.br
+                </Button>
+              </div>
             </CardContent>
           </Card>
 
@@ -137,7 +146,7 @@ const ContactSection = () => {
                 <Button 
                   size="lg" 
                   className="bg-primary hover:bg-primary/90"
-                  onClick={() => window.open('mailto:optusagent.ia@gmail.com?subject=Demonstração Optus Agent', '_blank')}
+                  onClick={() => window.open('mailto:contato@optusagent.com.br?subject=Demonstração Optus Agent', '_blank')}
                 >
                   Agendar Demonstração
                 </Button>
