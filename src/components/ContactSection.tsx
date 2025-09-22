@@ -63,22 +63,13 @@ const ContactSection = () => {
               <p className="text-muted-foreground mb-4">
                 Entre em contato por E-mail
               </p>
-              <div className="space-y-2">
-                <Button 
-                  variant="outline" 
-                  className="w-full text-sm"
-                  onClick={() => window.open('mailto:suporte@optusagent.com.br', '_blank')}
-                >
-                  suporte@optusagent.com.br
-                </Button>
-                <Button 
-                  variant="outline" 
-                  className="w-full text-sm"
-                  onClick={() => window.open('mailto:contato@optusagent.com.br', '_blank')}
-                >
-                  contato@optusagent.com.br
-                </Button>
-              </div>
+              <Button 
+                variant="outline" 
+                className="w-full"
+                onClick={() => window.open('mailto:contato@optusagent.com.br', '_blank')}
+              >
+                contato@optusagent.com.br
+              </Button>
             </CardContent>
           </Card>
 

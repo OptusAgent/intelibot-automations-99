@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import BlogGrid from "@/components/BlogGrid";
 import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
         <BlogGrid />
         <ContactSection />
       </main>
+      <Footer />
     </div>
   );
 };
