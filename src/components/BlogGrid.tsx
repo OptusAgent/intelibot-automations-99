@@ -7,6 +7,7 @@ import hrAutomationImage from "@/assets/hr-automation.jpg";
 import logisticsImage from "@/assets/logistics-optimization.jpg";
 import healthFinancialImage from "@/assets/elegant-health-financial.jpg";
 import administrativeImage from "@/assets/elegant-administrative.jpg";
+import mvpSaasImage from "@/assets/mvp-saas-development.jpg";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const BlogGrid = () => {
@@ -82,6 +83,20 @@ const BlogGrid = () => {
         "Conciliação bancária inteligente",
         "Gestão financeira preditiva",
         "Relatórios automatizados"
+      ]
+    },
+    {
+      id: "mvp-saas",
+      title: "Desenvolvimento MVP/SAAS",
+      description: "Do conceito ao produto final com agilidade",
+      icon: FileText,
+      image: mvpSaasImage,
+      tags: ["MVP", "SAAS", "Agilidade"],
+      features: [
+        "Prototipação rápida e validação de conceitos",
+        "Arquitetura escalável para crescimento",
+        "Desenvolvimento iterativo com metodologia ágil",
+        "Integração com APIs e serviços modernos"
       ]
     }
   ];
