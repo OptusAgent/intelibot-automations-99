@@ -70,8 +70,9 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-primary rounded-2xl blur-3xl opacity-20"></div>
             <img
               src={heroImage}
-              alt="Automação com IA"
+              alt="Soluções de automação empresarial com Inteligência Artificial - Optus Agent transformando processos de negócio"
               className="relative rounded-2xl shadow-hover w-full h-auto"
+              loading="eager"
             />
           </div>
         </div>

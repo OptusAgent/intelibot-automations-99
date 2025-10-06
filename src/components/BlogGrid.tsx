@@ -126,8 +126,9 @@ const BlogGrid = () => {
                     <div className="relative mb-4 overflow-hidden rounded-lg">
                       <img
                         src={article.image}
-                        alt={article.title}
+                        alt={`Solução de automação para ${article.title} - ${article.description}`}
                         className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
                       />
                       <div className="absolute top-4 left-4">
                         <div className="p-2 bg-gradient-primary rounded-lg">
@@ -213,8 +214,9 @@ const BlogGrid = () => {
                   <div className="absolute inset-0 bg-gradient-primary rounded-2xl blur-3xl opacity-20"></div>
                   <img
                     src={article.image}
-                    alt={article.title}
+                    alt={`Automação empresarial com IA para ${article.title} - Transforme processos de ${article.tags.join(', ')}`}
                     className="relative rounded-2xl shadow-hover w-full h-auto"
+                    loading="lazy"
                   />
                 </div>
               </div>
