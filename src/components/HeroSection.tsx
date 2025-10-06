@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, TrendingUp, Users } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import HeroAnimation from "@/components/HeroAnimation";
+import AISphere from "@/components/AISphere";
 
 const HeroSection = () => {
   useScrollAnimation();
@@ -65,11 +65,11 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Interactive Animation */}
+          {/* Interactive AI Sphere */}
           <div className="relative fade-in-right">
             <div className="absolute inset-0 bg-gradient-primary rounded-2xl blur-3xl opacity-20"></div>
-            <div className="relative shadow-hover">
-              <HeroAnimation />
+            <div className="relative">
+              <AISphere />
             </div>
           </div>
         </div>
