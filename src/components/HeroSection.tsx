@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, TrendingUp, Users } from "lucide-react";
-import heroImage from "@/assets/hero-ai-realistic.jpg";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import HeroAnimation from "@/components/HeroAnimation";
 
 const HeroSection = () => {
   useScrollAnimation();
@@ -65,15 +65,12 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Interactive Animation */}
           <div className="relative fade-in-right">
             <div className="absolute inset-0 bg-gradient-primary rounded-2xl blur-3xl opacity-20"></div>
-            <img
-              src={heroImage}
-              alt="Soluções de automação empresarial com Inteligência Artificial - Optus Agent transformando processos de negócio"
-              className="relative rounded-2xl shadow-hover w-full h-auto"
-              loading="eager"
-            />
+            <div className="relative shadow-hover">
+              <HeroAnimation />
+            </div>
           </div>
         </div>
       </div>
